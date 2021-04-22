@@ -1,0 +1,51 @@
+body {
+	background-color: #fef3ce;
+}
+.container {
+	margin-top: 50px;
+	width: 50%;
+}
+form {
+	background: #e1fdfe;
+	border: 2px solid #cfd4fd;
+	border-radius: 10px;
+	padding: 20px 10px;
+}
+#task {
+	width: 70%;
+	float: left;
+	margin-right: 5%;
+}
+
+ul {
+	padding: 5px 10px 10px 10px;
+	position: relative;
+	margin-top: 10px;
+
+}
+
+ul li {
+	list-style: none;
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #f5fcd7;
+	border: 1px solid silver;
+	border-radius: 5px;
+}
+ul li:hover {
+	background: #fbe4a5;
+}
+ul li button {
+	border: 0;
+	padding: 5px 15px;
+	color: white;
+	font-size: 13px;
+	background: red;
+	position: absolute;
+     margin-left: 150px;
+	left: 130px;
+	border-radius: 5px;
+}
+ul li button:hover {
+	background: #6969f9;
+}
